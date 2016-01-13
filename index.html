@@ -5,50 +5,39 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Vote!</title>
+    <title>Celebrity Dating Quiz</title>
   </head>
   <body>
-    <div class ="container">
+    <div class="container">
+      <form>
 
-      <div class ="over18">
-        <div class="jumbotron" id="over18">
-          <h1>Go Vote!</h1>
-          <div class="row">
-            <div class="col-sm-6">
-              <img src="img/voted.png">
-              <button type="button" onclick="location.href='https://en.wikipedia.org/wiki/Elephant';" class="btn btn-danger">Information</button>
-            </div>
-            <div class="col-sm-6">
-              <p>
-                Lorem ipsum dolor sit amet, unum eruditi lobortis vel id. Enim theophrastus vel ea, quem populo mea ut. Ne vim illud accommodare, eam ex quod senserit, te mel natum decore volumus. Postea euismod te ius. Habemus eleifend quaerendum ex sed, mei ut harum minimum delicata. Modo quas vim cu. Aeque evertitur forensibus nec ad.
-              </p>
-            </div>
-          </div>
+        <div class="form-group">
+          <label for="question1">Q1: How do you take your coffee? (black, cream and sugar, cream or sugar)</label>
+          <input type="text" class="form-control" placeholder="text">
         </div>
-      </div>
-      <div class ="under18">
-        <div class="jumbotron" id="under18">
-          <div class="row">
-            <h1>Get Educated!</h1>
-            <div class="col-sm-4">
-              <p>
-                Lorem ipsum dolor sit amet, unum eruditi lobortis vel id. Enim theophrastus vel ea, quem populo mea ut. Ne vim illud accommodare, eam ex quod senserit, te mel natum decore volumus. Postea euismod te ius. Habemus eleifend quaerendum ex sed, mei ut harum minimum delicata. Modo quas vim cu. Aeque evertitur forensibus nec ad.
-              </p>
-            </div>
-            <div class="col-sm-4">
-              <p>
-                Lorem ipsum dolor sit amet, unum eruditi lobortis vel id. Enim theophrastus vel ea, quem populo mea ut. Ne vim illud accommodare, eam ex quod senserit, te mel natum decore volumus. Postea euismod te ius. Habemus eleifend quaerendum ex sed, mei ut harum minimum delicata. Modo quas vim cu. Aeque evertitur forensibus nec ad.
-              </p>
-            </div>
-            <div class="col-sm-4">
-              <img src="img/voted.png">
-              <button type="button" onclick="location.href='https://en.wikipedia.org/wiki/Donkey';" class="btn btn-primary">Information</button>
-            </div>
-          </div>
+
+        <div class="form-group">
+        <label for="question2">Q2: What's your favorite color? (purple, black, red)</label>
+        <input type="text" class="form-control" placeholder="text">
         </div>
-      </div>
 
+        <div class="form-group">
+        <label for="question3">Q3: What's your favorite dish? (escargot, lettuce, pizza)</label>
+        <input type="text" class="form-control" placeholder="text">
+        </div>
 
+        <div class="form-group">
+        <label for="question4">Q4: Which city would you most like to live in? (Madagascar, Paris, NYC)</label>
+        <input type="text" class="form-control" placeholder="text">
+        </div>
+
+        <div class="form-group">
+        <label for="question5">Q5: What's your favorite genre of music? (metal, French-pop, rock)</label>
+        <input type="text" class="form-control" placeholder="text">
+        </div>
+
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
     </div>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-1.12.0.js"></script>
